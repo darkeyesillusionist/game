@@ -1,0 +1,5349 @@
+fileFormatVersion: 2
+guid: 32146221842a21e4dafdc8fad2b682a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mirror_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 838
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a35fc87d6f8fce43b6d760e4841e7b8
+      internalID: 741141486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 838
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cbe510d0342dc41bce86e770238d9e
+      internalID: -1854717386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 838
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abe5bf8da52b9840a0680b0c83f6970
+      internalID: -309401664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 838
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8db92230df4dc47a1e38edc2f9618c
+      internalID: 492958343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 838
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8275dc8df79a546978d7fdaad445f6
+      internalID: -1806942469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 838
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9392c8ad4d2e9df44afaaf968c9675ca
+      internalID: -109417651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 838
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22452d39c475794ca84301d0efde788
+      internalID: 724997767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 838
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333e2add610cc6d4ea2e92af275be5de
+      internalID: -1709458891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 838
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74baee4022f02dd469bb11d09ac09182
+      internalID: 1523978622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 837
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caf8e3a249a0924f9c73dd56ab30e32
+      internalID: -162880501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 837
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af096639f88cdc945b34d83b3ac7b17b
+      internalID: -2127243617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 837
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0fc5b866caec449a103f86984bf2bc
+      internalID: -1310366553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 837
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50b1deef9e19864eacfedd16937e37e
+      internalID: -1181125171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 837
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e544a747a80c8da41b019d60c5660f1f
+      internalID: 1698771285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_14
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 837
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5079a1349f09fa2458e5f432e83edb1e
+      internalID: 249882039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_15
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 838
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eec269ca71d8c4ab1d4db0c2802160
+      internalID: -1157959836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_16
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 838
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2895375150a54b34ba47945810d03802
+      internalID: 914293209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 774
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102e5491613496745979f990f1092be9
+      internalID: 1797528669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 774
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ecba40df174134a88e47b283470b66
+      internalID: -1733861892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 774
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c208a0ad2d6504b8d21d138f9370ed
+      internalID: 890261285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 774
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ff7d6a28150a643bc49e567b5a742b
+      internalID: 415986262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 774
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8d4676faad9a043997b94648dbf7a6
+      internalID: -659830924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_22
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 774
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031d462b69d88e2469cfeab98c91289a
+      internalID: -1192701680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_23
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 774
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5b37c86ec171e41a86ffd59291cf00
+      internalID: 656109040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_24
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 774
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ea5578435d6fb4b929693ddbd053cb
+      internalID: -1449460709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_25
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 774
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da206e4cc0ab86d4b805d2844a7a2b7b
+      internalID: 1276253862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 773
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f09141352599c44d973cc84bebdc241
+      internalID: -926658934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 773
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3417206a37e8a449d130fed0f96f9f
+      internalID: -96788309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 773
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44d905c6808344cad30dc3cf734f33
+      internalID: 747228643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 773
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8084b8299e2547b478d083771069b2e9
+      internalID: 1949893379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 773
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0066a82e76fb4b887c6f585457994
+      internalID: -2049984991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 773
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35692fd0bb0e6d6409ccc3ba76c5336e
+      internalID: 1792928507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_32
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 774
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c016ec780afe04546bd36bdcca794778
+      internalID: -713168930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_33
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 774
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bdda38848ead1459a8a5c13d4805f1
+      internalID: -1799313699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 710
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f504301307b255748885904a7cffd833
+      internalID: 2088116420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 710
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a380e70392df1c4f974ff288c2b6296
+      internalID: -655998048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 710
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f97b9821130e49a44cbd2a6d94072
+      internalID: 1975940367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 710
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ac77f7d8cd10d4686eab9444e08223
+      internalID: -1448163080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 710
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e431e587388049bc76fd6cf413d84
+      internalID: 1679825653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_39
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 710
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7691e8358abc34bb6478f47392d626
+      internalID: 173616772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_40
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 710
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6f178ed97cc0246bebc3061ec54c99
+      internalID: 1683651386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 710
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43948634475433649b32d0903addb382
+      internalID: -1914130122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_42
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 710
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30531be41c8742c4cb30b781b81c1f67
+      internalID: -16590879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 709
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f416fa395f5c6b4cbeb8c0d9e31d9a0
+      internalID: -634540506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_44
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 709
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5b2f12b176efc4992a257ee886fa59
+      internalID: -1734453269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_45
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 709
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129801857e81bd443b1088f029d20e12
+      internalID: 856182831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_46
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 709
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14f9da9a5552c94798cab4e953fbc0d
+      internalID: -974124378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_47
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 709
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7da332710305b84daaf217a440b8fa0
+      internalID: -553789291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_48
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 709
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50503f340e70f244ab3425c7733953a
+      internalID: -269954939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_49
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 710
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4573d9e35b61a3f439cee578c2fa1316
+      internalID: 1284141178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_50
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 710
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe46cb82ea61c418d35da7a022f07d
+      internalID: -417340858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 643
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecf324e597ea0043a1a0aacd6108472
+      internalID: 96686151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 645
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ed39456d698845a725719b849f92e
+      internalID: -1585809553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_53
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 645
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e2950333c8dc44ba7377faf0083a41
+      internalID: 586011353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 646
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84e5316da0d31a429a767f756e54bff
+      internalID: 2126205382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 646
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43d36b06436ceb478a69d094c3afc09
+      internalID: 1789896015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_56
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 646
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faadc664b5e22034da6eca8759bb8c6c
+      internalID: -1337388060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_57
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 646
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88e6cd4268080449b41251137c5566e
+      internalID: 807895693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_58
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 646
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe33e93fccbb84496a9d5967c19237
+      internalID: 2083752758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_59
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 646
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d073e97b70defa4ab4ddb2761a82ebd
+      internalID: 1118969415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_60
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 645
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdd96eaae43e3a42801df8bb4aeb4b8
+      internalID: -112253468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_61
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 645
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b56c426586d54e4caf2abda68c09a0c
+      internalID: -1727941394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_62
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 645
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a78aeead47509e4c87a291916851cea
+      internalID: -2134939564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_63
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 645
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b28030c982f57d40ae4b192b55a033a
+      internalID: 362288963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_64
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 645
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1607812a22ef3464cb367b187d2e1365
+      internalID: -1334428572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_65
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 645
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3300bc0ae45940a61a923cd6e2855
+      internalID: 1532956682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_66
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 646
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020507fe80e48844bfc8bfcff3406f9
+      internalID: 898913777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_67
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 646
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae773ba0b93131d4791bd3b0605d9d35
+      internalID: 2119536780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 582
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b398f2ab43701e4595df4aee9703157
+      internalID: 1422365706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 582
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0f7594081e02409bf32c2f48b9595
+      internalID: -1238167123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 582
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dffc1012c3f18f42b29f69a3bf4fcde
+      internalID: -1015051704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 582
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7c713ff50de534ab425922835b24ae
+      internalID: -828662191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_72
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 582
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef943095595bbc459c68a7580b77402
+      internalID: 28482101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_73
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 582
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ce87745fd177468bced6dfea312d7
+      internalID: -1811403679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_74
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 582
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4563e109058997498a6019c9434dd1f
+      internalID: -305914212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_75
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 582
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8c2e0a643a68e489934a4da86787be
+      internalID: 195098558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_76
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 582
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ee153d5bd8394b81a3e82c9ca2f38
+      internalID: -651995780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_77
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 581
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f7b3f23c9fcb4abc5392bf9f3492a
+      internalID: 604434407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_78
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 581
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bbbde9a083d314f8118e86714b1ef2
+      internalID: 1323653196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_79
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 581
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740ac4428600e814c993d427a923667d
+      internalID: 1542088021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_80
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 581
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920815943c738e44a9ef88486b302bc6
+      internalID: 1249191234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_81
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 581
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460c57cf71c6c44f91286ce3fc3b9de
+      internalID: 1173788130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_82
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 581
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9c01a5c910e8742a00cbba8ac665b2
+      internalID: -527680720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_83
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 582
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5735a5adf3805c94d9e116779e9e00de
+      internalID: 186377734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_84
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 582
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54de8199100b8134399f6ebe9999ac43
+      internalID: 1774654830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 517
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47263e414ff7c34e85d107b3c1b9032
+      internalID: -564643896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 517
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f761279117a85540b35f219c008a16e
+      internalID: -518602608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 517
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f1bbf03b0269849a3d8c102b4f25a1
+      internalID: 2126799957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_88
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 517
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb6e492461e6794dbe3181fef1d621a
+      internalID: -1705927879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_89
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 517
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7ea780a0bd124190af9e18e80050f
+      internalID: -416794183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_90
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 517
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d860217d458c10419d67de1c76958d0
+      internalID: 1653467535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_91
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 517
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ce84e565f9ddc47ad0f024370a60af
+      internalID: 383330179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_92
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 518
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6383c4d556ca848bffe8c4ecc05d21
+      internalID: 1226306267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_93
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 518
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aad8a63806bcbc46920ea8b74b243a4
+      internalID: 131282497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_94
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 518
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eea571b186af44d93ffd31e4d05e83
+      internalID: 212113519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_95
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 518
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc44d388279bd543aa033c459e0cb3e
+      internalID: 499078558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_96
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 518
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a2256fe0320f4a97eaede99828c8d
+      internalID: 1057801718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_97
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 518
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e187658143786fb41bcf2ed67ed7aa08
+      internalID: 801040152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_98
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 518
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe39de44b1720a6428ead5f005222a5f
+      internalID: -20100798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_99
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 518
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de08511e13f437458841ffd9203ad1f
+      internalID: -1623064985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_100
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 517
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f1dd1711e76c4195c8481ef82be1c
+      internalID: 2005282806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_101
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 517
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cde0af5fdf19da458315e17c17293da
+      internalID: 1700414113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 453
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ecdb1a16e33d4e80c2fd532436476
+      internalID: 829716216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_103
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 452
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5773dc63cbe5942b5fc80ff5d59804
+      internalID: -263834425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_104
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 452
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee486d84372e6f642a20040dcce55a7f
+      internalID: -1475843221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_105
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 453
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5153f62f4190bc14bb1a78700402eaaa
+      internalID: 1547804402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_106
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 453
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f8446691f3e8146b0ac05dfbb4b030
+      internalID: -950628089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 453
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a861f1484ddcb3f408c08d21ef7dc5f1
+      internalID: 651414072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 453
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c17ef9071d4e9548a8bb7c489f923b6
+      internalID: 122478886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_109
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 454
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8a06cc985c0c5459993b942cc49ede
+      internalID: -1725138793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_110
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 454
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6063a41c96ab5864d90eb8cc53aa8a6a
+      internalID: 1315635099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_111
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 455
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8616235c2a37c4e8c39271c3defe4a
+      internalID: 628663070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_112
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 455
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a47649521054224484376e135b43090
+      internalID: -1405587378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_113
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 455
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079fa0a753f128b42bbfc2f982b98e4f
+      internalID: 1426051071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_114
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 455
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69382d28a99e5344688be895d0d51aca
+      internalID: 1765141767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_115
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 455
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ec686f3c1a8ed4b8e4c46444a3a561
+      internalID: 1674200063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_116
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 455
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2b50f50346d0b4c90c66dc1c2e2ff2
+      internalID: -1791590531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_117
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 454
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046b193994c6d90478d83a91476961c9
+      internalID: 1306393022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_118
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 454
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cada1b9db119fcf45a5728cfd368f1fb
+      internalID: 98377979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f51f77ea568199488fd1ac15dd03dae
+      internalID: 582535982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_120
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f26b8454b71194478d611a8e0843447
+      internalID: 2119758617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_121
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc1c77644dd8442b2c414953c9a183
+      internalID: -1252856835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_122
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f1080d916d7bd43a0793ffaea833d4
+      internalID: -1561057222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_123
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2a47ef8d91a764bb22a24256c20b39
+      internalID: -773657878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_124
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 389
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8724cfcf6159be74e986862e4bcd920d
+      internalID: 1372773564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 389
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c45cff107b59647ab8ebcb5704bc7c
+      internalID: 686155887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_126
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 389
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4400060287057aa4dadc30749e6bf308
+      internalID: 636422932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_127
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 389
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a997af3d70ace49a559f5e3276c923
+      internalID: -641648756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_128
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 390
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02987a7a5ff24da4d8acec9f17aef4f5
+      internalID: -764874019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_129
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 390
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113a3ce5588cf6640a3a94a2d6f4684b
+      internalID: -1158510827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_130
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 390
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ea0d696ff2e54089a154cccd86ac2
+      internalID: 568731987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_131
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 390
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d5d713ba108b46b29f235bbcc8cb3
+      internalID: -277868033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_132
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 391
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952814827c19ca14290cd06643a5f63d
+      internalID: 508637852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_133
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 391
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579087c2359e66441af7e802fa1764dc
+      internalID: 1775193200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_134
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 391
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743a565b2bf337d4a8df4cb4b2cb0489
+      internalID: 1370479544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_135
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 391
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444496d2fd640cb4c9c92df9ec52c8ab
+      internalID: 1638947929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc3a4e8dc84b38449bfeba952f23a55
+      internalID: -190753807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_137
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 325
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fba874e0c8b0b4d8384fbcedbd9fd4
+      internalID: 370297889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_138
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 325
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def6918420622814d990ef67f9244495
+      internalID: -2145900683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_139
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 325
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8bc9bb93f2519439ae23a0f534c0e7
+      internalID: -650995706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_140
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 325
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ae474f21eda7143bfe4dc329fcdb34
+      internalID: -1285770991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 325
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bffd993d09b304493fc9a4deed6da2
+      internalID: -597318792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 325
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec53de6bf2d0549a6bae116b6778bf
+      internalID: -1287264685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_143
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 325
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea717290554100044aa668f3e723b2f7
+      internalID: 1250125401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_144
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 325
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a38d807f08d10549954caa3f1efe42b
+      internalID: 732240080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_145
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 325
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c833b90cf6e6547b1ec53606d3b73e
+      internalID: 3587097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_146
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 325
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4487ef6989bde449ec71176ee3c369
+      internalID: 1202263381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_147
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 325
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a729ce7d1a8e1784291f611cb25bca55
+      internalID: -1625427318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_148
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 325
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca4b6c0ab88f24a9824cca8cd862bf
+      internalID: 849935254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_149
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 325
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ad66c51d44b9844ae16d2d837dae50
+      internalID: 1373023377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_150
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 325
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec69315dd65b9a5449487a9a5e8a783b
+      internalID: -37827158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_151
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 326
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14529292e7519c43a9252ca3b28f37f
+      internalID: 1492020228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_152
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 326
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd54c991854e34db5b7a98cb5caef8
+      internalID: 2001224392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba99b81fea1f348a30c708a19a9b04
+      internalID: -1068365246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_154
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 263
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5183d527d403324586a5d74754a0a7f
+      internalID: -1108706786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_155
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 263
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a743132d3547113489f997f434de942c
+      internalID: -435274062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_156
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 262
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c53238e58407f4db1c06c12eb745f6
+      internalID: 224117099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_157
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 262
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef550b0ec74f024d9af3d2e4acf5e18
+      internalID: -171148618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_158
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 262
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5790994a54a720342a41d241a3aa3bf7
+      internalID: -344471692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_159
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 262
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41153b8a58d982546b60930b23d01d4b
+      internalID: 1377236429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_160
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 261
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd01518887cf129448b328da048b1489
+      internalID: -1589998208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_161
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 261
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7becc7b729cc44b824c991b02b2b7
+      internalID: 479323407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_162
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 260
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0979a2eca8df4390e1f357c2ffbe7
+      internalID: 423217600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_163
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 260
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf99495aa2a13b7419e39d932b1634d9
+      internalID: 456455425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_164
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 260
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caeef46512fe5d4198894fa17a735fe
+      internalID: 338217184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_165
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 260
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d163b9f97534d41abc10eb6f735aa7
+      internalID: -292703896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_166
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 260
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cec49f1a3b46c4d8656eccd1b818c4
+      internalID: 1548162589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_167
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 260
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a67c3761cdc14c489292b5ecc00108f
+      internalID: -1415211789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_168
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 261
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4d123c7b345dc4495b7467db19c02f
+      internalID: 635975259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_169
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 261
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd14277b923e96a43b00251ac6e5bcf6
+      internalID: 155040197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b444c647a4237a4caee937c6a1f9be8
+      internalID: -159604601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_171
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 199
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5653421f9d15418036de8bd772875
+      internalID: -1938185350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_172
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 199
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8735d0600e07a49930cecd3a6180c1
+      internalID: 870750373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_173
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7830c6581ae1094998cb2ed2ef37d47
+      internalID: 1978742054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_174
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c64bf1b22e9e1b4fbc9f012d1df46f4
+      internalID: -630024699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_175
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 199
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f389c32e650a488534112c958da71
+      internalID: -1694853593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_176
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 199
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7224b70621a6ee409bf6e1cc5583b3c
+      internalID: 1159617553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_177
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 198
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d32fbd006b4b743aa334553c704532
+      internalID: -503783477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_178
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 198
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebff3482148be348a14bc3d803bab05
+      internalID: -1670105185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_179
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 196
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e0ad002698ae3489aa95c1fcd5dcb9
+      internalID: 1760281281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_180
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 196
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a754b2692420e74eb5b79ac41721d31
+      internalID: -919481314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_181
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 196
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4e175f2c0bb04a969b70fc7272602
+      internalID: 1234004892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_182
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 196
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70740e8ca24ae4c4ebcbc052c33fc70c
+      internalID: -836904549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_183
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 195
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2d6e1bab918c746b78c5d02628aa6b
+      internalID: 168993743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_184
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 195
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab16f6b31f4176f42b840bb363c7b003
+      internalID: 71246631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_185
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 196
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f444320d72ee1249a14c041b14904c9
+      internalID: -895395225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_186
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 196
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f683c0d9c8c4c2c4dbbd9ed0cf3dc436
+      internalID: -1019574342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4663d2dfee14d4e97dcfa9a4c0e66b
+      internalID: -1993207328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_188
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 135
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852734265109d664082470bdf10fb95f
+      internalID: -596979350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_189
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 135
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9f0b9878aba7c4388d343d74b72a3d
+      internalID: -1592951973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_190
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 137
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd158e632f497b247a2d9e2a91b1f8e8
+      internalID: -1346651148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_191
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 137
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dec5845c54afb4d968bc5fb16ef923
+      internalID: -414844390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_192
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 135
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624e45380ee231749b811e068d9719ed
+      internalID: 1884314011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_193
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 135
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05738203d9131c74298e84a3d87d3a7f
+      internalID: 141073650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_194
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 134
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935da6f1f82b1204bb112bb95ad8d7f9
+      internalID: 1825214368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_195
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 134
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2049de11b1bb749a5dbfc35e4d7eb6
+      internalID: 434392416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_196
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 133
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8facea9427bf64098b7f90c2598d4b
+      internalID: 1179273219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_197
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 133
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f0fbf0810f51d4da3e18319bbab5ff
+      internalID: 981749925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_198
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 132
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b944a2c33138d14fbd715d9d86ca490
+      internalID: -955799328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_199
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 132
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c4c17244331d40929f6e05f40b01d
+      internalID: -1142030468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_200
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 132
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce80aca4a779814887a236b14f06ea2
+      internalID: -342719518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_201
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 132
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1935a4758dc1c42bf370c6a5a257ae
+      internalID: 412484205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_202
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 133
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851d2da0b6e27b84883ec8eaf60c65fb
+      internalID: 1876610588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_203
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 133
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f77ec25326c2e47ae03863e86ee6c1
+      internalID: -646758279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170b384d2dfa4b449c943c2cb9405e9
+      internalID: -1142014379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_205
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 71
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea13a581ffb3cf44a1c9d50d3b2cbf0
+      internalID: -416405969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_206
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 71
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06888d7411273642946ccd97550641c
+      internalID: -87653153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_207
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 72
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b66fa7ce0994564abd578eda595038b
+      internalID: -339119410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_208
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 72
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4805a37da8b45da42a0e890948422d54
+      internalID: 1697750832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_209
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f22db9ebeeaa46bd7a8eae010c393
+      internalID: 945618150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_210
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c0182aa3e31f4e9ad41958decf8ed
+      internalID: 829923260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_211
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 70
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1d666355cae2409dbcb758cf62215
+      internalID: 403788548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_212
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 70
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d658ca3186e0bc141b229f928b35b488
+      internalID: 1470164628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_213
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 69
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f69305cdd3d638468d3cd7e1a38b829
+      internalID: 2007935526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_214
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 69
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99d1e9a6f184eb449886ade64ae8910
+      internalID: 1466544646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_215
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 68
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb37758f3c648f640890f314221e21b7
+      internalID: -477543982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_216
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 68
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf52412afeafa34b90afd0ec4f17cbc
+      internalID: 1782970849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_217
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 68
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9817d9c129b0d48971e7e12ce9ba2f
+      internalID: 812255277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_218
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 68
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932aaa417974c8543afa4b9c93d96304
+      internalID: 825997676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_219
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 69
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a394e1ece4c4ec4fbc6b656632e61d0
+      internalID: 1102368936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_220
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 69
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650dfc49a5c9f7e47a033ac6349cd4c8
+      internalID: 873135028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_221
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 3
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a64eb77253f04b97514876fecca29
+      internalID: -1300817250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_222
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 15
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d06598ac7a33143b8b25fcbb03c303
+      internalID: -8218663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_223
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 6
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f25dc8de6e85846b0c9c16c5a740ec
+      internalID: -1956651720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_224
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 16
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c861c4abb498cf14b9098036234c9b6e
+      internalID: -743948926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_225
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 3
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a61a35545cac4db82cc66f04fdbb7
+      internalID: -1591315524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_226
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 15
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7010c2a9f4b77e4da9eef9447672a32
+      internalID: 1697675059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_227
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eda4cf726b26e4dbba376a7d74b413
+      internalID: -547613299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_228
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 13
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b0745075f4574dad33030492ab48d
+      internalID: 1414361721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_229
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf6448caa1446343b066041479ee2cd
+      internalID: 681925712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_230
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549cae4d03252024799a79beb7dcb383
+      internalID: -1062077159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_231
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 3
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b802a7c78d8043b4eab9f2e7fca90863
+      internalID: 999325646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_232
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 6
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe8f9a59e2313043acbbc52f076e79e
+      internalID: 1032893432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_233
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9292f2cfba59d48af7ad0d3f235cc7
+      internalID: -2080130854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_234
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414f69c31a23c7a46b55dc962a3725c5
+      internalID: 1685088329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_235
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdaee549c4429e40b3e7ec84c14306b
+      internalID: 1465513786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mirror_236
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d53ae8f30bdc1a4e813acbf7de79988
+      internalID: 973419378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mirror_10: -2127243617
+      mirror_89: -416794183
+      mirror_140: -1285770991
+      mirror_111: 628663070
+      mirror_175: -1694853593
+      mirror_124: 1372773564
+      mirror_236: 973419378
+      mirror_210: 829923260
+      mirror_155: -435274062
+      mirror_233: -2080130854
+      mirror_118: 98377979
+      mirror_156: 224117099
+      mirror_196: 1179273219
+      mirror_59: 1118969415
+      mirror_191: -414844390
+      mirror_127: -641648756
+      mirror_39: 173616772
+      mirror_179: 1760281281
+      mirror_75: 195098558
+      mirror_6: 724997767
+      mirror_96: 1057801718
+      mirror_214: 1466544646
+      mirror_197: 981749925
+      mirror_205: -416405969
+      mirror_45: 856182831
+      mirror_48: -269954939
+      mirror_91: 383330179
+      mirror_20: 415986262
+      mirror_144: 732240080
+      mirror_231: 999325646
+      mirror_21: -659830924
+      mirror_61: -1727941394
+      mirror_168: 635975259
+      mirror_56: -1337388060
+      mirror_30: -2049984991
+      mirror_176: 1159617553
+      mirror_230: -1062077159
+      mirror_24: -1449460709
+      mirror_172: 870750373
+      mirror_27: -96788309
+      mirror_76: -651995780
+      mirror_150: -37827158
+      mirror_104: -1475843221
+      mirror_70: -1015051704
+      mirror_224: -743948926
+      mirror_95: 499078558
+      mirror_99: -1623064985
+      mirror_218: 825997676
+      mirror_69: -1238167123
+      mirror_229: 681925712
+      mirror_64: -1334428572
+      mirror_133: 1775193200
+      mirror_128: -764874019
+      mirror_141: -597318792
+      mirror_4: -1806942469
+      mirror_77: 604434407
+      mirror_82: -527680720
+      mirror_201: 412484205
+      mirror_74: -305914212
+      mirror_107: 651414072
+      mirror_223: -1956651720
+      mirror_9: -162880501
+      mirror_103: -263834425
+      mirror_162: 423217600
+      mirror_123: -773657878
+      mirror_212: 1470164628
+      mirror_15: -1157959836
+      mirror_78: 1323653196
+      mirror_100: 2005282806
+      mirror_68: 1422365706
+      mirror_219: 1102368936
+      mirror_84: 1774654830
+      mirror_55: 1789896015
+      mirror_26: -926658934
+      mirror_7: -1709458891
+      mirror_50: -417340858
+      mirror_189: -1592951973
+      mirror_206: -87653153
+      mirror_177: -503783477
+      mirror_23: 656109040
+      mirror_149: 1373023377
+      mirror_226: 1697675059
+      mirror_194: 1825214368
+      mirror_116: -1791590531
+      mirror_41: -1914130122
+      mirror_43: -634540506
+      mirror_67: 2119536780
+      mirror_110: 1315635099
+      mirror_216: 1782970849
+      mirror_38: 1679825653
+      mirror_227: -547613299
+      mirror_193: 141073650
+      mirror_208: 1697750832
+      mirror_22: -1192701680
+      mirror_94: 212113519
+      mirror_143: 1250125401
+      mirror_2: -309401664
+      mirror_18: -1733861892
+      mirror_13: 1698771285
+      mirror_71: -828662191
+      mirror_17: 1797528669
+      mirror_73: -1811403679
+      mirror_185: -895395225
+      mirror_165: -292703896
+      mirror_120: 2119758617
+      mirror_53: 586011353
+      mirror_79: 1542088021
+      mirror_122: -1561057222
+      mirror_195: 434392416
+      mirror_83: 186377734
+      mirror_54: 2126205382
+      mirror_119: 582535982
+      mirror_192: 1884314011
+      mirror_36: 1975940367
+      mirror_46: -974124378
+      mirror_33: -1799313699
+      mirror_158: -344471692
+      mirror_145: 3587097
+      mirror_182: -836904549
+      mirror_102: 829716216
+      mirror_190: -1346651148
+      mirror_97: 801040152
+      mirror_32: -713168930
+      mirror_25: 1276253862
+      mirror_134: 1370479544
+      mirror_114: 1765141767
+      mirror_187: -1993207328
+      mirror_221: -1300817250
+      mirror_174: -630024699
+      mirror_154: -1108706786
+      mirror_167: -1415211789
+      mirror_51: 96686151
+      mirror_225: -1591315524
+      mirror_126: 636422932
+      mirror_28: 747228643
+      mirror_66: 898913777
+      mirror_215: -477543982
+      mirror_199: -1142030468
+      mirror_112: -1405587378
+      mirror_58: 2083752758
+      mirror_98: -20100798
+      mirror_132: 508637852
+      mirror_228: 1414361721
+      mirror_147: -1625427318
+      mirror_184: 71246631
+      mirror_35: -655998048
+      mirror_115: 1674200063
+      mirror_101: 1700414113
+      mirror_213: 2007935526
+      mirror_72: 28482101
+      mirror_47: -553789291
+      mirror_130: 568731987
+      mirror_65: 1532956682
+      mirror_121: -1252856835
+      mirror_135: 1638947929
+      mirror_152: 2001224392
+      mirror_86: -518602608
+      mirror_178: -1670105185
+      mirror_49: 1284141178
+      mirror_142: -1287264685
+      mirror_170: -159604601
+      mirror_129: -1158510827
+      mirror_117: 1306393022
+      mirror_207: -339119410
+      mirror_204: -1142014379
+      mirror_198: -955799328
+      mirror_157: -171148618
+      mirror_125: 686155887
+      mirror_16: 914293209
+      mirror_62: -2134939564
+      mirror_80: 1249191234
+      mirror_232: 1032893432
+      mirror_200: -342719518
+      mirror_202: 1876610588
+      mirror_106: -950628089
+      mirror_148: 849935254
+      mirror_63: 362288963
+      mirror_183: 168993743
+      mirror_19: 890261285
+      mirror_88: -1705927879
+      mirror_139: -650995706
+      mirror_166: 1548162589
+      mirror_146: 1202263381
+      mirror_217: 812255277
+      mirror_12: -1181125171
+      mirror_173: 1978742054
+      mirror_171: -1938185350
+      mirror_151: 1492020228
+      mirror_34: 2088116420
+      mirror_90: 1653467535
+      mirror_163: 456455425
+      mirror_0: 741141486
+      mirror_159: 1377236429
+      mirror_60: -112253468
+      mirror_40: 1683651386
+      mirror_3: 492958343
+      mirror_31: 1792928507
+      mirror_203: -646758279
+      mirror_211: 403788548
+      mirror_11: -1310366553
+      mirror_42: -16590879
+      mirror_105: 1547804402
+      mirror_44: -1734453269
+      mirror_85: -564643896
+      mirror_137: 370297889
+      mirror_181: 1234004892
+      mirror_131: -277868033
+      mirror_14: 249882039
+      mirror_81: 1173788130
+      mirror_220: 873135028
+      mirror_234: 1685088329
+      mirror_113: 1426051071
+      mirror_188: -596979350
+      mirror_164: 338217184
+      mirror_52: -1585809553
+      mirror_186: -1019574342
+      mirror_93: 131282497
+      mirror_5: -109417651
+      mirror_109: -1725138793
+      mirror_92: 1226306267
+      mirror_8: 1523978622
+      mirror_222: -8218663
+      mirror_138: -2145900683
+      mirror_57: 807895693
+      mirror_160: -1589998208
+      mirror_180: -919481314
+      mirror_29: 1949893379
+      mirror_108: 122478886
+      mirror_153: -1068365246
+      mirror_37: -1448163080
+      mirror_1: -1854717386
+      mirror_136: -190753807
+      mirror_87: 2126799957
+      mirror_161: 479323407
+      mirror_209: 945618150
+      mirror_235: 1465513786
+      mirror_169: 155040197
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
