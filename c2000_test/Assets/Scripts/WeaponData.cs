@@ -9,4 +9,5 @@ public class WeaponData : ScriptableObject
         public float fireRate;
         public float bulletSpeed;
         public float bulletRange; // Add this line
+        public int damage; // Add this line for damage value
 }

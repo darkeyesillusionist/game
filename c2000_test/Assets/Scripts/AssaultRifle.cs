@@ -26,4 +26,16 @@ public class AssaultRifle : Weapon
         {
                 base.Fire(); // Call the base.Fire() method here
         }
+
+        protected override void DealDamage(Collider2D target)
+        {
+                // Implement the damage logic for the assault rifle here.
+                // For example, if you have a Health component on the target object:
+                Health targetHealth = target.GetComponent<Health>();
+                if (targetHealth != null)
+                {
+                        int damageAmount = 10; // Set the desired damage amount for the assault rifle
+                        targetHealth.TakeDamage(damageAmount);
+                }
+        }
 }
