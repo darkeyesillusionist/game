@@ -8,6 +8,7 @@ public abstract class Weapon : MonoBehaviour
         protected float timeToFire = 0;
 
         protected abstract void Shoot();
+        protected abstract void DealDamage(Collider2D target); // Add the abstract method
 
         private void Start()
         {

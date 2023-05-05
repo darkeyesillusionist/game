@@ -31,9 +31,23 @@ public class Shotgun : Weapon
         {
                 for (int i = 0; i < pelletCount; i++)
                 {
-                        float spread = Random.Range(-spreadAngle / 2, spreadAngle / 2);
+                        // Calculate the spread angle for each bullet evenly across the defined angle
+                        float spread = -spreadAngle / 2 + (spreadAngle / (pelletCount - 1)) * i;
                         GameObject bullet = Instantiate(weaponData.bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0, 0, 90 + spread));
                         bullet.GetComponent<Rigidbody2D>().velocity = Quaternion.Euler(0, 0, spread) * firePoint.up * weaponData.bulletSpeed;
+                        bullet.GetComponent<Bullet>().bulletRange = weaponData.bulletRange;
+                }
+        }
+
+        protected override void DealDamage(Collider2D target)
+        {
+                // Implement the damage logic for the shotgun here.
+                // For example, if you have a Health component on the target object:
+                Health targetHealth = target.GetComponent<Health>();
+                if (targetHealth != null)
+                {
+                        int damageAmount = 20; // Set the desired damage amount for the shotgun
+                        targetHealth.TakeDamage(damageAmount);
                 }
         }
 }
