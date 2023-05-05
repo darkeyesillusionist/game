@@ -15,6 +15,7 @@ MonoBehaviour:
   weaponName: Shotgun
   bulletPrefab: {fileID: 5484020343600095739, guid: c66b12436c681924dbf3badedc6c4c38, type: 3}
   firePointOffset: {x: 0, y: 0.25, z: 0}
-  fireRate: 1.2
-  bulletSpeed: 15
-  bulletRange: 5
+  fireRate: 2
+  bulletSpeed: 30
+  bulletRange: 3
+  damage: 0

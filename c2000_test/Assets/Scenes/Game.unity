@@ -894,4 +894,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 21cb8ffc6a86ade4d8b10941739c209c, type: 2}
   pelletCount: 8
-  spreadAngle: 45
+  spreadAngle: 25

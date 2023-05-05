@@ -29,15 +29,23 @@ public class Shotgun : Weapon
 
         protected override void Shoot()
         {
+                float interval = spreadAngle / (pelletCount - 1);
+                Quaternion initialFirePointRotation = firePoint.rotation;
+
                 for (int i = 0; i < pelletCount; i++)
                 {
+                        // Reset the firePoint rotation to its initial state before calculating the spread
+                        firePoint.rotation = initialFirePointRotation;
+
                         // Calculate the spread angle for each bullet evenly across the defined angle
-                        float spread = -spreadAngle / 2 + (spreadAngle / (pelletCount - 1)) * i;
-                        GameObject bullet = Instantiate(weaponData.bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0, 0, 90 + spread));
-                        bullet.GetComponent<Rigidbody2D>().velocity = Quaternion.Euler(0, 0, spread) * firePoint.up * weaponData.bulletSpeed;
+                        float spread = -spreadAngle / 2 + interval * i;
+                        Quaternion bulletRotation = firePoint.rotation * Quaternion.Euler(0, 0, 90 + spread);
+                        GameObject bullet = Instantiate(weaponData.bulletPrefab, firePoint.position, bulletRotation);
+                        bullet.GetComponent<Rigidbody2D>().velocity = bulletRotation * Vector3.right * weaponData.bulletSpeed;
                         bullet.GetComponent<Bullet>().bulletRange = weaponData.bulletRange;
                 }
         }
+
 
         protected override void DealDamage(Collider2D target)
         {

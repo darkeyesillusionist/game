@@ -60,12 +60,20 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3921828685818179374, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
+      propertyPath: m_Mass
+      value: 0.0052219364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921828685818179374, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
       propertyPath: m_AngularDrag
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3921828685818179374, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921828685818179374, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3921828685818179376, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
       propertyPath: m_Name
