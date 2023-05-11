@@ -4,21 +4,17 @@ public class Shotgun : Weapon
 {
         public int pelletCount = 8;
         public float spreadAngle = 45f;
+        private AudioSource audioSource;
+
+        protected override void Start()
+        {
+                base.Start();
+                audioSource = GetComponent<AudioSource>();
+        }
 
         protected override void Update()
         {
                 base.Update();
-
-                Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mousePosition.z = 0f;
-                Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - playerTransform.position);
-                transform.rotation = targetRotation;
-
-                // Update firePoint position using firePointOffset
-                firePoint.position = playerTransform.position + targetRotation * weaponData.firePointOffset;
-
-                // Update firePoint rotation to match playerTransform rotation
-                firePoint.rotation = targetRotation;
 
                 if (Input.GetMouseButton(0) && Time.time >= timeToFire)
                 {
@@ -29,23 +25,24 @@ public class Shotgun : Weapon
 
         protected override void Shoot()
         {
+                audioSource.Play();
+
                 float interval = spreadAngle / (pelletCount - 1);
-                Quaternion initialFirePointRotation = firePoint.rotation;
+                Quaternion initialFirePointRotation = firingPoint.transform.rotation;
 
                 for (int i = 0; i < pelletCount; i++)
                 {
                         // Reset the firePoint rotation to its initial state before calculating the spread
-                        firePoint.rotation = initialFirePointRotation;
+                        firingPoint.transform.rotation = initialFirePointRotation;
 
                         // Calculate the spread angle for each bullet evenly across the defined angle
                         float spread = -spreadAngle / 2 + interval * i;
-                        Quaternion bulletRotation = firePoint.rotation * Quaternion.Euler(0, 0, 90 + spread);
-                        GameObject bullet = Instantiate(weaponData.bulletPrefab, firePoint.position, bulletRotation);
+                        Quaternion bulletRotation = firingPoint.transform.rotation * Quaternion.Euler(0, 0, 90 + spread);
+                        GameObject bullet = Instantiate(weaponData.bulletPrefab, firingPoint.transform.position, bulletRotation);
                         bullet.GetComponent<Rigidbody2D>().velocity = bulletRotation * Vector3.right * weaponData.bulletSpeed;
                         bullet.GetComponent<Bullet>().bulletRange = weaponData.bulletRange;
                 }
         }
-
 
         protected override void DealDamage(Collider2D target)
         {
@@ -54,8 +51,7 @@ public class Shotgun : Weapon
                 Health targetHealth = target.GetComponent<Health>();
                 if (targetHealth != null)
                 {
-                        int damageAmount = 20; // Set the desired damage amount for the shotgun
-                        targetHealth.TakeDamage(damageAmount);
+                        targetHealth.TakeDamage(weaponData.damage); // Use the damage value from the WeaponData scriptable object
                 }
         }
 }

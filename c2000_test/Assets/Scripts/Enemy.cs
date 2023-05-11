@@ -3,7 +3,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
         public EnemyData enemyData;
-
         private int currentHealth;
 
         void Start()
@@ -15,8 +14,33 @@ public class Enemy : MonoBehaviour
                 }
 
                 currentHealth = enemyData.health;
-                // Initialize other properties based on enemyData
         }
 
-        // Implement other enemy behavior using enemyData properties
+        public void TakeDamage(int damageAmount)
+        {
+                currentHealth -= damageAmount;
+                if (currentHealth <= 0)
+                {
+                        Die();
+                }
+        }
+
+        public void ApplyKnockback(Vector2 direction, float knockbackStrength)
+        {
+                // Apply knockback to the enemy based on the given direction and strength
+                // You can use Rigidbody2D.AddForce to apply a force in the direction of the knockback
+
+        }
+
+        public void TakeMeleeDamage(int damageAmount, Vector2 knockbackDirection, float knockbackStrength)
+        {
+                TakeDamage(damageAmount);
+                ApplyKnockback(knockbackDirection, knockbackStrength);
+        }
+
+        private void Die()
+        {
+                // Implement death behavior, such as playing a death animation, dropping loot, etc.
+                Destroy(gameObject);
+        }
 }

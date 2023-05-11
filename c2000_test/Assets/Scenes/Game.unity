@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 466627355}
   - component: {fileID: 466627356}
   m_Layer: 6
-  m_Name: Weapons
+  m_Name: WeaponManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3864705ac42cf43b6aaca537f4dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefabs: []
+  enemyPrefabs:
+  - {fileID: 7667122013146794043, guid: 1654a1ccb440ef8499112137a88ba6be, type: 3}
   spawnPoints: []
   spawnInterval: 5
 --- !u!4 &917740923
@@ -264,6 +265,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 5127d2a0121f84c46851fe66bb16f676, type: 2}
+  firingPoint: {fileID: 1379763240}
+--- !u!1 &1379763238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379763239}
+  - component: {fileID: 1379763240}
+  m_Layer: 6
+  m_Name: FiringPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1379763239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379763238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1467927555}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1379763240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379763238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875ab4fb4edbc2a498388bf13cdddc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1382166959
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +365,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.2219565
+  orthographic size: 2.9917505
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -514,22 +561,23 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.06451945, y: 0.090274446}
       - {x: -0.06653966, y: 0.066728584}
-      - {x: -0.043101124, y: 0.092902966}
+      - {x: -0.06619479, y: 0.086304784}
       - {x: -0.065787956, y: 0.07084738}
       - {x: -0.065853715, y: 0.063554235}
       - {x: -0.052626297, y: 0.036978073}
       - {x: -0.046370577, y: 0.016544756}
-      - {x: -0.045111816, y: -0.023201803}
-      - {x: -0.031672046, y: -0.030303508}
+      - {x: -0.0550091, y: -0.07021391}
+      - {x: -0.053116158, y: -0.07154219}
       - {x: -0.03507514, y: -0.07300554}
-      - {x: -0.032133516, y: -0.082064666}
+      - {x: -0.043680344, y: -0.08536377}
       - {x: -0.039405603, y: -0.10872743}
       - {x: -0.008865625, y: -0.1321982}
       - {x: -0.003138259, y: -0.050735272}
       - {x: 0.02448788, y: -0.05101015}
-      - {x: 0.043762982, y: -0.12203819}
-      - {x: 0.044780314, y: -0.12801912}
-      - {x: 0.07100551, y: -0.049119256}
+      - {x: 0.031088501, y: -0.12811875}
+      - {x: 0.054485045, y: -0.12698685}
+      - {x: 0.053852826, y: -0.13049343}
+      - {x: 0.06358254, y: -0.121699356}
       - {x: 0.077684075, y: -0.025632929}
       - {x: 0.09997554, y: 0.012081161}
       - {x: 0.09489043, y: 0.031448882}
@@ -644,6 +692,8 @@ Transform:
   m_Children:
   - {fileID: 2043779314}
   - {fileID: 466627355}
+  - {fileID: 1739360883}
+  - {fileID: 1379763239}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -682,6 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490514548}
   - component: {fileID: 1490514547}
+  - component: {fileID: 1490514549}
   m_Layer: 0
   m_Name: BulletPool
   m_TagString: Untagged
@@ -718,6 +769,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1490514549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490514546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc9561f2b3359e4ca75bf77873d5941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5484020343600095739, guid: c66b12436c681924dbf3badedc6c4c38, type: 3}
+  initialPoolSize: 100
 --- !u!1 &1627813106
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +867,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1739360882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1739360883}
+  - component: {fileID: 1739360884}
+  m_Layer: 6
+  m_Name: MeleeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1739360883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739360882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1467927555}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1739360884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739360882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd5b6fea660cb04d9c783eabc4c1f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeEffectPrefab: {fileID: 5467358219668794747, guid: 1507adacbc5fba64bb78f440f7bd3a39, type: 3}
+  firingPoint: {fileID: 1379763240}
+  meleeDuration: 0.2
+  meleeDamage: 20
 --- !u!1 &2043779313
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,5 +1006,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 21cb8ffc6a86ade4d8b10941739c209c, type: 2}
+  firingPoint: {fileID: 1379763240}
   pelletCount: 8
   spreadAngle: 25
