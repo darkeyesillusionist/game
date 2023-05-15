@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: AssaultRifle
   bulletPrefab: {fileID: 3921828685818179376, guid: 816201a48dc22a74e9d7bf58f934509f, type: 3}
   firePointOffset: {x: 0, y: 0.25, z: 0}
-  fireRate: 15
-  bulletSpeed: 15
-  bulletRange: 4
+  fireRate: 11.43
+  bulletSpeed: 20
+  bulletRange: 3
   damage: 10

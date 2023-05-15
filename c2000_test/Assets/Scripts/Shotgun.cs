@@ -5,6 +5,7 @@ public class Shotgun : Weapon
         public int pelletCount = 8;
         public float spreadAngle = 45f;
         private AudioSource audioSource;
+        private bool isFiring; // New flag
 
         protected override void Start()
         {
@@ -19,13 +20,18 @@ public class Shotgun : Weapon
                 if (Input.GetMouseButton(0) && Time.time >= timeToFire)
                 {
                         timeToFire = Time.time + 1 / weaponData.fireRate;
+                        isFiring = true; // Set the flag to true
                         Shoot();
                 }
         }
 
         protected override void Shoot()
         {
-                audioSource.Play();
+                if (isFiring) // Check the flag
+                {
+                        audioSource.Play();
+                        isFiring = false; // Reset the flag
+                }
 
                 float interval = spreadAngle / (pelletCount - 1);
                 Quaternion initialFirePointRotation = firingPoint.transform.rotation;

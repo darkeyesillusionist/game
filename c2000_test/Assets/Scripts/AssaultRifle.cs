@@ -2,16 +2,17 @@ using UnityEngine;
 
 public class AssaultRifle : Weapon
 {
+        public AudioSource gunFireAudioSource;
+        private bool isFiring; // New flag
+
         protected override void Update()
         {
-                Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mousePosition.z = 0f;
-                Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - playerTransform.position);
-                transform.rotation = targetRotation;
+                base.Update();
 
                 if (Input.GetMouseButton(0) && Time.time >= timeToFire)
                 {
                         timeToFire = Time.time + 1 / weaponData.fireRate;
+                        isFiring = true; // Set the flag to true
                         Shoot();
                 }
         }
@@ -19,6 +20,12 @@ public class AssaultRifle : Weapon
         protected override void Shoot()
         {
                 base.Fire();
+
+                if (isFiring && gunFireAudioSource != null) // Check the flag
+                {
+                        gunFireAudioSource.Play();
+                        isFiring = false; // Reset the flag
+                }
         }
 
         protected override void DealDamage(Collider2D target)
